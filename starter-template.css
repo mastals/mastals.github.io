@@ -5,3 +5,15 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+.museum {
+  text-align: left;
+}
+
+.museum li {
+  list-style: none;
+}
+
+.museum li.person {
+  font-size: 20px;
+}
