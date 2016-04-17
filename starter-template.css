@@ -17,3 +17,7 @@ body {
 .museum li.person {
   font-size: 20px;
 }
+
+.museum li.poop img {
+  width: 300px;
+}
