@@ -21,3 +21,11 @@ body {
 .museum li.poop img {
   width: 300px;
 }
+
+.forms .login {
+  float: left;
+}
+
+.forms .signup {
+  float:right;
+}
