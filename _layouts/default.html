@@ -15,7 +15,8 @@
   <body background="/Mastals.jpeg">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -25,6 +26,7 @@
           </button>
           <a class="navbar-brand" href="/">Mastals</a>
         </div>
+
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="/about/">About</a></li>
@@ -33,6 +35,15 @@
             <li><a href="/what-to-do/">What To Do</a></li>
             <li><a href="/museum-of-mastals-members/">Museum of Mastals Members</a></li>
           </ul>
+        
+          <div class="dropdown nav navbar-nav navbar-right pt2">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+              Welcome <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Coming soon</a></li>
+            </ul>
+          </div>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
