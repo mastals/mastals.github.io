@@ -29,3 +29,8 @@ body {
 .forms .signup {
   float:right;
 }
+
+
+.museum li.cam img {
+  width:  300px;
+}
